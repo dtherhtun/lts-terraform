@@ -15,8 +15,7 @@ resource "aws_instance" "webserver" {.....}
 resource "aws_instance" "mysqlserver" {...}
 
 aws_instance.webserver 
-
-
+aws_instance.mysqlserver
 
 
 Element

@@ -1,13 +1,13 @@
-resource "docker_image" "image_id" {
+resource "docker_image" "ghost" {
   name = "ghost:latest"
 }
 
-# Start the Container
-resource "docker_container" "container_id" {
-  name  = "ghost_blog"
-  image = docker_image.image_id.latest
-  ports {
-    internal = "2368"
-    external = "80"
-  }
+resource "docker_container" "blog" {
+	name = "myblog"
+	image = "ghost:latest" #docker_image.ghost.latest
+	ports { 
+		internal = "2368"
+		external = "80"
+	}
 }
+
