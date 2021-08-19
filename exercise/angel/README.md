@@ -1,6 +1,6 @@
 ## Local Provide Homework with random provider
 
-```First,we have configuration template with random_shuffle generated values. 
+```bash First,we have configuration template with random_shuffle generated values. 
 File Name : alice.txt
 
 Another file : data.txt 
