@@ -1,4 +1,4 @@
-## Local Provide Homework with random provider
+## Local Provider Homework with random shuffle resource
 
 ```bash
 #First,we have configuration template with random_shuffle generated values. 
