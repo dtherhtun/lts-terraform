@@ -28,8 +28,8 @@ $ terraform.tfvars
 ## Let's initialize/plan and add Random Provider and random_shuffle Part
 New File called main.tf
 The resource random_shuffle generates a random permutation of a list of strings given as an argument.
-1. Firstly, We will use  **random provider**  and **randon_shuffel**.
-2. After adding that
+1. Firstly, We will use  **random provider**  and **random_shuffel**.
+2. After adding that random provider & random_shuffel resources ,
 
 $ random_shuffle.random_nouns
 
