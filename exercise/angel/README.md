@@ -26,7 +26,7 @@ $ terraform.tfvars
 
 
 ## Let's initialize/plan and add Random Provider and random_shuffle Part
-New File called main.tf
+New File called : main.tf
 The resource random_shuffle generates a random permutation of a list of strings given as an argument.
 1. Firstly, We will use  **random provider**  and **random_shuffel**.
 2. After adding that random provider & random_shuffel resources ,
@@ -40,6 +40,16 @@ $ random_shuffle.random_adjectives
 $ random_shuffle.random_numbers
 
 $ random_shuffle.random_verbs will be created
- 
+ If we apply that main.tf file, we can see the results of the random_shuffle resource.
 
 
+## Next: Terminal Output - :Shuffle results will play with the configuration template.
+Existing File called: main.tf
+Output values are like the return values of a Terraform module, and have several uses:
+
+1. Using our alice.txt templatefile with results,it will do output values in **Terminal**. 
+2. And then >
+$ terraform apply -auto-approve
+
+### Can check only output values
+$ terraform output
