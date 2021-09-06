@@ -19,6 +19,6 @@ resource "aws_instance" "backend" {
   instance_type = "t3.micro"
 
   tags = {
-    Name = "dev env"
+    Name = "prod env"
   }
 }
